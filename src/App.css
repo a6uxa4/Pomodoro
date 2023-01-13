@@ -1,9 +1,10 @@
-.Container {
-	width: 500px;
-	height: 500px;
-	border-radius: 100%;
-	border: 1px solid black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+body {
+	background-color: #30384b;
+	color: white;
+}
+main {
+	padding-top: 50px;
+	max-width: 340px;
+	margin: 0 auto;
+	text-align: center;
 }
