@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import Timer from './Timer'
+import React from 'react'
+import Timer from './components/Timer'
 import './App.css'
 
 function App() {
