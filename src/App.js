@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
+import './App.css'
 
 function App() {
-	const [min, setMin] = useState()
+	const [min, setMin] = useState(10)
 	return (
 		<div>
-			<div></div>
+			<div className='Container'>
+				<span>{min}</span>
+			</div>
 		</div>
 	)
 }
